@@ -40,5 +40,7 @@ public class Aula04Operadores {
         double valorTotalContaPoupança = 10000;
         boolean daPraComprarPS5 = valorTotalContaCorrente > 3000 || valorTotalContaPoupança > 3000;
         System.out.println(daPraComprarPS5);
+
+        // = += -= *= /= %=
     }
 }
