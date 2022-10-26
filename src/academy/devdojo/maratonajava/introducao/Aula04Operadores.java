@@ -35,5 +35,10 @@ public class Aula04Operadores {
         float salario = 3500F;
         boolean isDentroDaLei = idade > 30 && salario > 4612;
         System.out.println(isDentroDaLei);
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupança = 10000;
+        boolean daPraComprarPS5 = valorTotalContaCorrente > 3000 || valorTotalContaPoupança > 3000;
+        System.out.println(daPraComprarPS5);
     }
 }
