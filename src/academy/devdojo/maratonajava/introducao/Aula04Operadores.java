@@ -13,5 +13,21 @@ public class Aula04Operadores {
         System.out.println(numero2 / numero1);
         System.out.println(numero1 / numero2);
         System.out.println((double) numero1 / numero2);
+
+        // %
+        int resto = 20 % 2;
+        System.out.println(resto);
+        resto = 21 % 2;
+        System.out.println(resto);
+
+        // < > <= >= == !=
+        boolean isDezMaiorQueVinte = 10 > 20;
+        System.out.println(isDezMaiorQueVinte);
+        boolean isDezMenorQueVinte = 10 < 20;
+        System.out.println(isDezMenorQueVinte);
+        boolean isDezIgualVinte = 10 == 20;
+        System.out.println(isDezIgualVinte);
+        boolean isDezIgualDez = 10 == 10;
+        System.out.println(isDezIgualDez);
     }
 }
